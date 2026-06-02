@@ -27,6 +27,7 @@ Deploy and operate a DShield honeypot by Sans Internet Storm Center (ISC) on an 
 - iptables
 - OpenSSH
 - Linux Command Line (Bash)
+- Cowrie SSH Honeypot
 - Python 3
 
 ## Steps
