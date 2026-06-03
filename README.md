@@ -67,7 +67,18 @@ Deploy and operate a DShield honeypot by Sans Internet Storm Center (ISC) on an 
    *Ref 7: SSH Honeypot Port Redirection.*
    This screenshot shows the firewall or NAT configuration used to redirect public SSH traffic to the SSH honeypot services, validating proper honeypot exposure.
 
-10. Monitored honeypot logs and verified collection of real-world scanning activity which confirmed successful operation of the honeypot..
+10. Monitored honeypot logs and verified collection of real-world scanning activity which confirmed successful operation of the honeypot.
    <img width="1161" height="797" alt="image" src="https://github.com/user-attachments/assets/092999e9-10fd-42d2-b4f0-4b9ff7894550" />
    *Ref 8: Honeypot Log Collection.*
    This screenshot displays captured honeypot logs containing real-world reconnaissance and scanning activity from external hosts, demonstrating successful detection and logging of malicious or suspicious network activity.
+
+## References
+
+SANS Internet Storm Center (ISC), "DShield Honeypot Project." Available:
+https://isc.sans.edu/honeypot.html
+
+Amazon Web Services (AWS), "Amazon EC2 Documentation." Available:
+https://docs.aws.amazon.com/ec2/
+
+Amazon Web Services (AWS), "Amazon VPC Documentation." Available:
+https://docs.aws.amazon.com/vpc/
