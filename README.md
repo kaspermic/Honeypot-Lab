@@ -32,13 +32,11 @@ Deploy and operate a DShield honeypot by Sans Internet Storm Center (ISC) on an 
 
 ## Steps
 
-1. Created an AWS EC2 t3.micro instance running Ubuntu Server 26.04 LTS.
-   <img width="1510" height="90" alt="image" src="https://github.com/user-attachments/assets/299c01fd-520b-4dfd-9da3-e5f099f32a9a" />
+1. Created an AWS EC2 t3.micro instance running Ubuntu Server 26.04 LTS.<img width="1510" height="90" alt="image" src="https://github.com/user-attachments/assets/299c01fd-520b-4dfd-9da3-e5f099f32a9a" />
    *Ref 1: AWS EC2 Instance Overview.*
    This screenshot shows the AWS EC2 instance hosting the DShield honeypot. The instance is running Ubuntu 26.04 LTS on a t3.micro instance and is assigned a public Elastic IP address for internet accessibility.
 
-2. Assigned an Elastic IP address to provide a stable public endpoint.
-   <img width="1429" height="80" alt="image" src="https://github.com/user-attachments/assets/4c172362-7c43-470b-8e1e-1e287e8f3f14" />
+2. Assigned an Elastic IP address to provide a stable public endpoint.<img width="1429" height="80" alt="image" src="https://github.com/user-attachments/assets/4c172362-7c43-470b-8e1e-1e287e8f3f14" />
    *Ref 2: Elastic IP Assignment.*
    This screenshot shows the Elastic IP address associated with the EC2 instance. The Elastic IP provides a stable public endpoint that allows internet traffic to consistently reach the honeypot.
 
@@ -47,13 +45,11 @@ Deploy and operate a DShield honeypot by Sans Internet Storm Center (ISC) on an 
    *Ref 3: SSH Access to EC2 with DShield Honeypot Installed.*
    This screenshot demonstrates a successful SSH connection to the EC2 instance and verifies that the operating system is accessible for administration and configuration with DShield honeypot installed and confirms that the software was successfully deployed on the Ubuntu server.
 
-4. Configured AWS Security Groups to allow required traffic for the honeypot and administrative access.
-   <img width="1643" height="788" alt="image" src="https://github.com/user-attachments/assets/406b42c6-b9c3-4723-a80b-50b77b73533a" />
+4. Configured AWS Security Groups to allow required traffic for the honeypot and administrative access.<img width="1643" height="788" alt="image" src="https://github.com/user-attachments/assets/406b42c6-b9c3-4723-a80b-50b77b73533a" />
    *Ref 4: AWS Security Group Configuration.*
    This screenshot displays the inbound security group rules configured to allow honeypot traffic while restricting administrative access to trusted sources.
 
-5. Verified DShield services were running and listening.
-   <img width="782" height="678" alt="image" src="https://github.com/user-attachments/assets/6433085e-4c1d-4c4b-bc85-1024caf35839" />  
+5. Verified DShield services were running and listening.<img width="782" height="678" alt="image" src="https://github.com/user-attachments/assets/6433085e-4c1d-4c4b-bc85-1024caf35839" />  
    *Ref 5: DShield Service Verification.*
    This screenshot shows the DShield status.sh output and confirms that the honeypot services are running and listening on the expected ports.
 
@@ -62,13 +58,11 @@ Deploy and operate a DShield honeypot by Sans Internet Storm Center (ISC) on an 
    *Ref 6: External Web Honeypot Test.*
    This screenshot demonstrates successful access to the web honeypot from an external network, confirming that the service is publicly reachable.
    
-8. Validated SSH honeypot redirection and service availability.
-   <img width="782" height="39" alt="image" src="https://github.com/user-attachments/assets/dc025e5d-1224-4d84-aa6e-bd15c7b73c6f"  />  
+8. Validated SSH honeypot redirection and service availability.<img width="782" height="39" alt="image" src="https://github.com/user-attachments/assets/dc025e5d-1224-4d84-aa6e-bd15c7b73c6f"  />  
    *Ref 7: SSH Honeypot Port Redirection.*
    This screenshot shows the firewall or NAT configuration used to redirect public SSH traffic to the SSH honeypot services, validating proper honeypot exposure.
 
-10. Monitored honeypot logs and verified collection of real-world scanning activity which confirmed successful operation of the honeypot.
-   <img width="1161" height="797" alt="image" src="https://github.com/user-attachments/assets/092999e9-10fd-42d2-b4f0-4b9ff7894550" />
+10. Monitored honeypot logs and verified collection of real-world scanning activity which confirmed successful operation of the honeypot.<img width="1161" height="797" alt="image" src="https://github.com/user-attachments/assets/092999e9-10fd-42d2-b4f0-4b9ff7894550" />
    *Ref 8: Honeypot Log Collection.*
    This screenshot displays captured honeypot logs containing real-world reconnaissance and scanning activity from external hosts, demonstrating successful detection and logging of malicious or suspicious network activity.
 
